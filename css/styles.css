@@ -46,6 +46,10 @@ body {
     width: 50px;
 }
 
+.hide {
+    display: none;
+}
+
 /*Header*/
 header {
     padding: 3% 10%;
@@ -128,9 +132,10 @@ main #repo #python-html {
     gap: 50px;
 }
 
-main #repo #python-html article {
+main #repo #python-html article .container {
     border: 2px solid #D9D9D9;
-    padding: 5% 1%;
+    padding: 7% 1%;
+    width: 100%;
 }
 
 main #repo #python-html .flex {
@@ -164,6 +169,9 @@ main #repo #python-html .flex .language-name {
 
 main #repo #python-html .flex .more {
     color: #D9D9D9;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
 }
 
 main #repo #python-html .flex .more:hover {
