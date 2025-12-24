@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/Home.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="js/scripts.js"></script>
 </head>
 <body class="grid">
     <!--------------------------------------------------------------Header--------------------------------------------------------------------->
@@ -60,7 +59,7 @@
                             <a href="https://github.com/szapatar08/grades-system-managment" class="items hover_grey hide" target="_blank">grades-system-managment</a>
                             <a href="https://github.com/szapatar08/students-registration" class="items hover_grey hide" target="_blank">students-registration</a>
                         </div>
-                        <button class="more">See more ...</button>
+                        <button id="more-python" class="more" onclick="hide_show('more-python', 'hide')" >See more ...</button>
                     </div>
                 </article>
                 <article id="html/css" class="flex language-container">
@@ -77,7 +76,7 @@
                             <a href="https://github.com/kepler-riwi/kepler-events-admin" class="items hover_grey hide" target="_blank">kepler-events-admin</a>
                             <a href="https://github.com/szapatar08/user-story-html-css" class="items hover_grey hide" target="_blank">user-story-html-css</a>
                         </div>
-                        <button id="more" class="more">See more ...</button>
+                        <button id="more-html" class="more">See more ...</button>
                     </div>
                 </article>
             </section>
@@ -101,5 +100,6 @@
             </ul>
         </section>
     </footer>
+    <script src="js/repository.js"></script>
 </body>
 </html>
