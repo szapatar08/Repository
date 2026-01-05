@@ -309,7 +309,7 @@ footer #me {
 
 /*Medias*/
 @media (max-width: 1500px){
-    main #repo #python-html {
+    main #repo .section-repo {
         grid-template-columns: 1fr;
     }
 }
