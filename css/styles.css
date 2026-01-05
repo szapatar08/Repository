@@ -130,27 +130,30 @@ main #profile #profile-information img {
 main #repo {
     padding: 3% 10% 5%;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
-main #repo #python-html {
+main #repo .section-repo {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
 
-main #repo #python-html article .container {
+main #repo .section-repo article .container {
     border: 2px solid #D9D9D9;
     padding: 7% 1%;
     width: 100%;
 }
 
-main #repo #python-html .flex {
+main #repo .section-repo .flex {
     width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 50px;
 }
 
-main #repo #python-html .flex .items {
+main #repo .section-repo .flex .items {
     width: 80%;
     padding: 3%;
     border-radius: 50px;
@@ -158,11 +161,11 @@ main #repo #python-html .flex .items {
     background-color: #D9D9D9;
 }
 
-main #repo #python-html .flex .items:hover {
+main #repo .section-repo .flex .items:hover {
     background-color: #7B7B7B;
 }
 
-main #repo #python-html .flex .language-name {
+main #repo .section-repo .flex .language-name {
     width: 40%;
     flex-direction: row;
     justify-content: center;
@@ -172,14 +175,14 @@ main #repo #python-html .flex .language-name {
     padding: 2% 5%;
 }
 
-main #repo #python-html .flex .more {
+main #repo .section-repo .flex .more {
     color: #D9D9D9;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     cursor: pointer;
 }
 
-main #repo #python-html .flex .more:hover {
+main #repo .section-repo .flex .more:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
